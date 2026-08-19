@@ -1,16 +1,58 @@
-# React + Vite
+# ♞ Dark Knight Chess
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive chess game built using React and Vite.
 
-Currently, two official plugins are available:
+Dark Knight Chess provides a premium dark-themed chess interface with support for legal moves, captures, check, checkmate, castling, en passant, pawn promotion, move history, and computer gameplay.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ♟️ Complete chess board
+- ⚔️ Legal move validation
+- 👑 Check detection
+- ♛ Checkmate detection
+- 🤝 Stalemate / Draw detection
+- 🏰 Castling
+- 🐎 En Passant
+- 👑 Pawn Promotion
+- 📝 Move History
+- 💀 Captured Pieces
+- 🤖 VS Computer mode
+- 👥 Two Player support
+- 🔄 Restart Game
+- 🆕 New Game
+- 📱 Fully Responsive Design
+- 🌙 Premium Dark Knight UI
+- 🖥️ Desktop, Tablet and Mobile support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```text
+dark-knight-chess/
+│
+├── public/
+│   └── logo.png
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   └── Chess.css
+│   │
+│   ├── pages/
+│   │   └── Chess.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
